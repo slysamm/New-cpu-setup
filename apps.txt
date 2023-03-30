@@ -1,0 +1,31 @@
+#Apps.txt
+
+# Rectangle app - https://rectangleapp.com/ - PRO (gmail for license)
+# Itsycal - https://www.mowglii.com/itsycal/
+# Numi - https://numi.app/ (gmail for license)
+# Iterm2 - see the other areas for them - 
+# KeepassXC - non pro - https://keepassxc.org/
+# AltTab - non pro version - https://alt-tab-macos.netlify.app/
+# Alfred - non pro - https://www.alfredapp.com/
+# FL Studio - (use gmail license to log into this) https://www.image-line.com/fl-studio/ - 
+# VS code - https://code.visualstudio.com/
+# sublime-text - https://www.sublimetext.com/
+# Brave for internet browsing - https://brave.com/
+
+#----
+#leave on cpu
+# Imovie (should be pre downloaded) - 
+# Garage band (should be pre downloaded) - 
+
+#xargs brew install < apps.txt to loop through all of the items
+
+sublime-text
+visual-studio-code
+iterm2
+brave
+alt-tab
+brave-browser
+fl-studio
+alfred
+keepassx
+rectangle-pro

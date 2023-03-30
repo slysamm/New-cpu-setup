@@ -1,0 +1,201 @@
+#Settings for a new computer Mostly these things will c arry over from the settings you have in icloud for example but just in case.
+
+settings menu for a MAC (done originally on Ventura 13.3)
+
+Finder settings ('command' and ',') with finder open
+
+-----
+System Settings
+-----
+
+-----
+Wifi
+-----
+ask to join (bottom of wifi networks) - off for both 
+under advanced:
+change networks - off
+turn wifi on or off - off
+show legacy network and options - off
+-----
+Bluetooth
+-----
+off
+Bluetooth and Airdrop are both off
+
+-----
+Network
+-----
+
+remove everything from the dock that is unused - move to the right and hide it (make it hella small too)
+remove everything from the 
+
+-----
+Notifications 
+-----
+Turn everything off - Minus the FaceTime
+(if this is a work computer maybe keep slack on)
+
+-----
+Sound
+-----
+alter sound - boop
+play sound thru output device
+play sound on start up - off
+play ui sound effects - off
+play feedback when volume is changed - off
+
+(run in terminal)
+
+defaults write com.apple.PowerChime ChimeOnNoHardware -bool true;killall PowerChime
+
+to turn off the power charging noise ^
+
+to turn it back on you can use the below command
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
+
+
+-----
+Focus is off - Do not share across devices
+-----
+
+-----
+Screen Time is off
+-----
+
+-----
+General
+-----
+
+-----
+Appearearance
+-----
+dark mode
+accent color blue
+highlight color is blue
+sidebar icon size is medium
+allow wallpaper tinting window - on 
+show scroll bars - automatically based on the mouse or trackpad
+click in the scrollbar - to jump to the next page
+
+
+Accessibility
+
+Control Center
+
+Siri and Spotlight - off for everything here
+Search is checked for applications, calc, contacts, conversion, documents, folders, images, other, PDF socuments, system settings.
+
+Privacy & Security 
+
+
+
+
+analytics and improvements - turn everything possible off
+apple advertising - turn off everything possible
+
+allow accessories to connect (ask for new accessories)
+
+allow applications downloaded from both app store and identified devs
+
+Lockdown mode and Firevault are off
+
+Extensions just pop in here and see if there is anything useful for finder etc. rn its
+actions - markup
+photos editing - markup
+sharing - copy link, notes (nothing else)
+finder - all checked
+Nothing under profiles
+
+Desktop and Dock
+
+
+----
+Displays
+------
+default for text
+auto adjust - off
+true tone - off
+preset apple xdr display p3-1600 nits
+refresh rate is promotion
+
+
+-----
+Wallpaper
+----
+color black
+
+----
+Screensaver
+----
+flurry
+
+
+-----
+Battery
+-----
+low power mode - never
+options sub menu 
+(wake for network access never)
+(optimize video streaming while on batter is on)
+
+-----
+Lock Screen
+-----
+start screensaver when inactive - never
+turn off on batter when inactive - 30 mins
+turn off display power adapter when inactive - 1 hour
+req password - 1 min after
+show message when locked - off
+
+swithing user isnt important since you're the only one on the cpu.
+
+
+-----
+Touch ID & Password
+-----
+
+-----
+Users & Groups
+-----
+
+-----
+Passwords - Nothing should be saved here - Detect leaked passwords
+-----
+
+-----
+Game Center is off
+-----
+
+-----
+Wallet is not avaialble on the Mac
+-----
+
+-----
+Internet acocunts - should show your Icloud
+-----
+
+-----
+Trackpad 
+-----
+Tracking speed is 6/10
+click is medium
+turn off force click, look up and data detercots
+secondary click is with 2 fingers
+tap to click is off
+
+Scroll and Zoom
+natural scrolling - off
+zoom in or out - on
+smart zoom - off
+rotate with two finders - off
+
+More gestures
+
+swipe between pages - off
+swap between fs apps - with 3 fingers
+mission control - swipe up with 3 fingers
+launchpad - on
+show desktop - on (also use top right hand hot corners for this)
+
+-------
+

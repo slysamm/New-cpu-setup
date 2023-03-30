@@ -1,0 +1,21 @@
+#Download python things via the Cli
+
+# Brew - https://docs.brew.sh/Installation
+# Python - https://www.python.org/downloads/
+
+#then
+#run xargs pip install > packages.txt
+
+pandas
+pyautigui
+webbrowser
+pyperclip
+shutil
+datetime
+subprocess
+requests
+argparse
+
+
+
+Crontab (upload file from work laptop for this if it is being used for MOO)
